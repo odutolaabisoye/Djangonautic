@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="{% static 'style.css' %}">
     </head>
     <body>
-
+        <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.png' %}" width="300px"/></a></h1>
         {% block content %}
         {% endblock %}
 
